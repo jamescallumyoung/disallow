@@ -1,5 +1,7 @@
 {
   "name": "@jych/disallow",
+  "version": "0.1.0",
+  "private": false,
   "type": "commonjs",
   "packageManager": "yarn@3.6.3",
   "scripts": {
