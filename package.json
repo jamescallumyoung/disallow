@@ -1,6 +1,6 @@
 {
   "name": "@jych/disallow",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": false,
   "type": "commonjs",
   "packageManager": "yarn@3.6.3",
@@ -24,9 +24,10 @@
     "name": "James Young",
     "url": "jamesyoung.ch"
   },
+  "homepage": "https://github.com/jamescallumyoung/disallow",
   "repository": {
     "type": "git",
-    "url": "github:jamescallumyoung/disallow"
+    "url": "https://github.com/jamescallumyoung/disallow.git"
   },
   "license": "MIT"
 }
