@@ -1,6 +1,6 @@
 {
   "name": "@jych/disallow",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "type": "commonjs",
   "packageManager": "yarn@3.6.3",
@@ -19,5 +19,14 @@
     "./dist",
     "./bin"
   ],
-  "bin": "./bin/disallow.sh"
+  "bin": "./bin/disallow.sh",
+  "author": {
+    "name": "James Young",
+    "url": "jamesyoung.ch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github:jamescallumyoung/disallow"
+  },
+  "license": "MIT"
 }
