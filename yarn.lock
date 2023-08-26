@@ -5,6 +5,19 @@ __metadata:
   version: 6
   cacheKey: 8
 
+"@jych/disallow@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@jych/disallow@workspace:."
+  dependencies:
+    "@types/node": ^20.5.6
+    "@types/yargs": ^17
+    typescript: ^5.2.2
+    yargs: ^17.7.2
+  bin:
+    disallow: ./bin/disallow.sh
+  languageName: unknown
+  linkType: soft
+
 "@types/node@npm:^20.5.6":
   version: 20.5.6
   resolution: "@types/node@npm:20.5.6"
@@ -70,17 +83,6 @@ __metadata:
   checksum: b0445859521eb4021cd0fb0cc1a75cecf67fceecae89b63f62b201cca8d345baf8b952c966862a9d9a2632987d4f6581f0ec8d957dfacece86f0a7919316f610
   languageName: node
   linkType: hard
-
-"disallow@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "disallow@workspace:."
-  dependencies:
-    "@types/node": ^20.5.6
-    "@types/yargs": ^17
-    typescript: ^5.2.2
-    yargs: ^17.7.2
-  languageName: unknown
-  linkType: soft
 
 "emoji-regex@npm:^8.0.0":
   version: 8.0.0

@@ -1,5 +1,5 @@
 {
-  "name": "disallow",
+  "name": "@jych/disallow",
   "type": "commonjs",
   "packageManager": "yarn@3.6.3",
   "scripts": {
