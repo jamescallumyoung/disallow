@@ -1,4 +1,4 @@
-import {readFile} from 'node:fs/promises';
+import { readFile } from "node:fs/promises";
 
 /**
  * @throws SyntaxError
@@ -6,10 +6,9 @@ import {readFile} from 'node:fs/promises';
  */
 export const readJsonFile = async (filePath: string): Promise<unknown> => {
   try {
-    const jsonStr = await readFile(filePath, { encoding: 'utf8' });
+    const jsonStr = await readFile(filePath, { encoding: "utf8" });
     return JSON.parse(jsonStr);
-  }
-  catch (err) {
+  } catch (err) {
     if (err instanceof SyntaxError) {
       console.error(`Failed to parse file as JSON: "${filePath}"`);
       throw err;
