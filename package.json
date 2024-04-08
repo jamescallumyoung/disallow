@@ -1,10 +1,11 @@
 {
   "name": "@jych/disallow",
   "version": "0.1.2",
-  "type": "commonjs",
+  "type": "module",
   "packageManager": "yarn@4.1.1+sha256.f3cc0eda8e5560e529c7147565b30faa43b4e472d90e8634d7134a37c7f59781",
   "scripts": {
-    "build": "tsc"
+    "build": "yarn run tsc",
+    "clean": "yarn dlx rimraf ./dist"
   },
   "devDependencies": {
     "@types/node": "^20.5.6",
@@ -15,10 +16,9 @@
     "yargs": "^17.7.2"
   },
   "files": [
-    "./dist",
-    "./bin"
+    "./dist"
   ],
-  "bin": "./bin/disallow.sh",
+  "bin": "./dist/esm/main.js",
   "author": {
     "name": "James Young",
     "url": "jamesyoung.ch"
